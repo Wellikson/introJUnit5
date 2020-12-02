@@ -139,14 +139,4 @@ class MathUtilTest {
         assertEquals(esperado,obtido);
         
     }
-     @Test
-    void testMdcP12Resposta1(){
-        final int a = 9;
-        final int p = 3;
-        final int esperado = 1;
-        final int obtido = mdc(p,a);
-         System.out.println("P12 esperado :"+esperado+" obtido :"+obtido);
-        assertEquals(esperado,obtido);
-        
-    }
 }
