@@ -122,5 +122,31 @@ class MathUtilTest {
         final int a = 8;
         final int b = 4;
         final int c = 2;
+        final int esperado = mdc(a,mdc(b,c));
+        final int obtido = mdc(mdc(a,c),b);
+        System.out.println("P9 esperado :"+esperado+" obtido :"+obtido);
+        assertEquals(esperado,obtido);
+        
+    }
+    
+    @Test
+    void testMdcP12(){
+        final int a = 9;
+        final int p = 3;
+        final int esperado = p;
+        final int obtido = mdc(p,a);
+         System.out.println("P12 esperado :"+esperado+" obtido :"+obtido);
+        assertEquals(esperado,obtido);
+        
+    }
+     @Test
+    void testMdcP12Resposta1(){
+        final int a = 9;
+        final int p = 3;
+        final int esperado = 1;
+        final int obtido = mdc(p,a);
+         System.out.println("P12 esperado :"+esperado+" obtido :"+obtido);
+        assertEquals(esperado,obtido);
+        
     }
 }
