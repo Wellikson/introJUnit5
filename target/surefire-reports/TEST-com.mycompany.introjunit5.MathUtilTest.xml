@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.introjunit5.MathUtilTest" time="0.095" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.introjunit5.MathUtilTest" time="0.083" tests="11" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="BR"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
-    <property name="sun.java.command" value="/home/wellikson/NetBeansProjects/introJUnit5/target/surefire/surefirebooter1239915657935119318.jar /home/wellikson/NetBeansProjects/introJUnit5/target/surefire 2020-11-25T10-36-13_263-jvmRun1 surefire3516062746534966182tmp surefire_05429717561091666324tmp"/>
+    <property name="sun.java.command" value="/home/wellikson/NetBeansProjects/introJUnit5/target/surefire/surefirebooter4798806531715336250.jar /home/wellikson/NetBeansProjects/introJUnit5/target/surefire 2020-12-02T09-32-26_312-jvmRun1 surefire3036430799977775962tmp surefire_0788975332899838372tmp"/>
     <property name="test" value="com.mycompany.introjunit5.MathUtilTest"/>
     <property name="surefire.test.class.path" value="/home/wellikson/NetBeansProjects/introJUnit5/target/test-classes:/home/wellikson/NetBeansProjects/introJUnit5/target/classes:/home/wellikson/.m2/repository/org/junit/jupiter/junit-jupiter/5.7.0/junit-jupiter-5.7.0.jar:/home/wellikson/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/home/wellikson/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/wellikson/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/wellikson/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/home/wellikson/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.7.0/junit-jupiter-params-5.7.0.jar:/home/wellikson/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/home/wellikson/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/wellikson/NetBeansProjects/introJUnit5/target/surefire/surefirebooter1239915657935119318.jar"/>
+    <property name="surefire.real.class.path" value="/home/wellikson/NetBeansProjects/introJUnit5/target/surefire/surefirebooter4798806531715336250.jar"/>
     <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_212-8u212-b01-1~deb9u1-b01"/>
@@ -42,7 +42,7 @@
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="maven.ext.class.path" value="/usr/local/netbeans-12.0/netbeans/java/maven-nblib/netbeans-eventspy.jar:/usr/local/netbeans-12.0/netbeans/java/maven-nblib/netbeans-eventspy.jar"/>
+    <property name="maven.ext.class.path" value="/usr/local/netbeans-12.0/netbeans/java/maven-nblib/netbeans-eventspy.jar"/>
     <property name="localRepository" value="/home/wellikson/.m2/repository"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="/tmp"/>
@@ -60,6 +60,15 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testMdcAImpar" classname="com.mycompany.introjunit5.MathUtilTest" time="0.073"/>
-  <testcase name="testMdcAPar" classname="com.mycompany.introjunit5.MathUtilTest" time="0"/>
+  <testcase name="testMdcAPositivoP3" classname="com.mycompany.introjunit5.MathUtilTest" time="0.032"/>
+  <testcase name="testMdcP5" classname="com.mycompany.introjunit5.MathUtilTest" time="0.002"/>
+  <testcase name="testMdcP6" classname="com.mycompany.introjunit5.MathUtilTest" time="0.007"/>
+  <testcase name="testMdcP8" classname="com.mycompany.introjunit5.MathUtilTest" time="0.001"/>
+  <testcase name="testMdcAParP1" classname="com.mycompany.introjunit5.MathUtilTest" time="0.004"/>
+  <testcase name="testMdcMParP4" classname="com.mycompany.introjunit5.MathUtilTest" time="0.001"/>
+  <testcase name="testMdcAnegativoP3" classname="com.mycompany.introjunit5.MathUtilTest" time="0.001"/>
+  <testcase name="testMdcP7TudoNegativo" classname="com.mycompany.introjunit5.MathUtilTest" time="0.002"/>
+  <testcase name="testMdcParesP2" classname="com.mycompany.introjunit5.MathUtilTest" time="0.002"/>
+  <testcase name="testMdcAImparP1" classname="com.mycompany.introjunit5.MathUtilTest" time="0.001"/>
+  <testcase name="testMdcP5Resultado1" classname="com.mycompany.introjunit5.MathUtilTest" time="0.002"/>
 </testsuite>
